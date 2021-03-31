@@ -31,7 +31,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.disable_backpressure=1 \
     debug.sf.enable_hwc_vds=0 \
     debug.sf.hw=0 \
-    ro.surface_flinger.use_color_management=true
+    ro.surface_flinger.use_color_management=true \
+    ro.surface_flinger.protected_contents=false
 
 # IORap
 PRODUCT_PROPERTY_OVERRIDES += \
