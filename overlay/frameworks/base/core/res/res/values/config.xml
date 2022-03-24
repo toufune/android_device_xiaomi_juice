@@ -251,9 +251,6 @@
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
      <bool name="skip_restoring_network_selection">false</bool>
-
-    <!-- Height of the status bar -->
-     <dimen name="status_bar_height_portrait">24.0dip</dimen>
          
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
          percent. The length of this array is assumed to be one greater than
@@ -872,4 +869,8 @@
         <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
         <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
     </string-array>
+
+    <!-- Whether the display cutout region of the main built-in display should be forced to
+         black in software (to avoid aliasing or emulate a cutout that is not physically existent). -->
+    <string name="config_mainBuiltInDisplayCutout">M -78,0 L -78,78 L 78,78 L 78,0 Z</string>
 </resources>
